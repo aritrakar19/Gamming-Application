@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Creepster&family=Poppins:wght@300;400&display=swap');
+*{
+  font-family:  'Poppins', cursive;
+
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(83, 83, 83);
+}
+.main_user{
+  display: flex;
+  justify-content: end;
+}
+.user_box {
+  background-color: #d9d2d248;
+  padding: 16px;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  top: 10px;
+  right: 18px;
+  position: absolute;
+}
+.user_name {
+  color: #ffffff;
+}
+.container1 {
+  width: 100%;
+  min-width: 60%;
+  background: linear-gradient(90deg, #2a2d37, #1d1e22);
+  min-height: 90vh;
+  margin-left: 40px;
+  margin-right: 21%;
+  border-radius: 25px;
+  box-shadow:  9px 5px 20px rgba(16, 16, 16, 0.407);
+  margin-top: 33px;
+  position: relative;
+}
+.gamenav{
+  width: 44px;
+  min-height: 93vh;
+  background: #2a2d37;
+  margin-right: -30px;
+  box-shadow:  9px 5px 20px rgba(16, 16, 16, 0.407);
+  border-radius: 25px;
+  padding: 20px;
+  overflow: hidden;
+  transition: .5s;
+}
+.maindiv {
+  display: flex;
+  align-items: center;
+}
+.container2 {
+  width: 20%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #2a2d37, #1d1e22);
+  margin-left: 10px;
+  border-radius: 25px;
+  box-shadow:  9px 5px 20px rgba(16, 16, 16, 0.407);
+  position: absolute;
+  right: 0;
+  /* display: none; */
+}
+
+.playbtn {
+  width: 234px;
+  height: 50px;
+  border-radius: 40px;
+  background: #21232b;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 150px;
+  margin-left: 36px;
+}
+button:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.box2 {
+  width: 210px;
+  height: 64px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 49px;
+  background: #21232b;
+  text-align: center;
+  text-align: center;  
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  color: #ffffff;
+}
+.box2:hover{
+  background: rgba(245, 40, 40, 0.92);
+}
+.box3 {
+  width: 69%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.padding {
+  padding-right: 2px;
+}
+.box {
+  width: 210px;
+  height: 64px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 49px;
+  background: #21232b;
+  text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  color: #ffffff;
+}
+.box:hover{
+  background: rgba(245, 40, 40, 0.92);
+}
+.box1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.padding1 {
+  padding-right: 6px;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+.searchicon {
+  width: 5px;
+  height: 5px;
+}
+.divnav {
+  font-size: 15px;
+  margin-right: -8px;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+}
+.nav-icons {
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  background: #21232b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: white;
+}
+.about-icon {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  align-items: center;
+}
+.about {
+  background-color: #21232b;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.more {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background: #21232b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.more1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white
+}
+.searchbtn {
+  margin-top: -61px;
+}
+.notification {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background: #21232b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 12px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.play:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.more1:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.exit:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.account:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.about:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.carrier:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.notification:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.chat {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background: #21232b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.chat:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.chatbar {
+  display: flex;
+}
+.chats {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-size: 37px;
+  margin-left: 38px;
+  color: white;
+}
+/* for expanded navbar */
+.expand-nav {
+  width: 400px;
+  transition: .5s;
+}
+.searchbtn {
+  margin-top: -18px;
+  margin-left: -40px
+}
+.nav-icons:hover {
+  background: rgba(245, 40, 40, 0.92);
+}
+.search-icon {
+  width: 27px;
+  height: 28px;
+  padding: 10px;
+  background: #a6eef057;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 100%;
+  margin-right: 20px;
+  color: white;
+  margin-top: 12px;
+}
+.loginbox {
+  background-color: rgba(54, 53, 53, 0.448);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 50px 40px;
+}
+.loginbox .input_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.loginbox .input_box .input_box_individual {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.loginbox .input_box .input_box_individual .users {
+  width: 30%;
+}
+.loginbox .input_box .input_box_individual .users p {
+  color: white;
+  font-size: 20px;
+}
+.loginbox .input_box .input_box_individual .input_holder {
+  justify-content: center;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.loginbox .input_box .input_box_individual .input_holder input {
+  margin-left: 20px;
+  border-bottom: 1px solid rgb(253, 249, 249);
+  color: white;
+}
+.login_btn_holder {
+  margin-top: 50px;
+}
+.logbtn {
+  padding: 10px 50px;
+    border-radius: 40px;
+    background: #52ca6e;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.logbtn:hover {
+  background-color: #24cc4b;
+}
+.loginpage {
+  width: 100%;
+  height: 100vh;
+  background: url(https://ftw.usatoday.com/wp-content/uploads/sites/90/2021/08/fortnite.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom_dv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom_dv .checkbox_holder {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.bottom_dv .checkbox_holder input  {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.bottom_dv .checkbox_holder span  {
+  color: #ffffff;
+}
+.bottom_dv a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.rating_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rating_box {
+  background-color: #d7d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 25px 36px;
+  width: 160px;
+  margin-top: 10%;
+  box-shadow:  9px 5px 20px rgba(16, 16, 16, 0.407);
+}
+.review {
+  background-color: #d7d3d3;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow:  9px 5px 20px rgba(16, 16, 16, 0.407);
+
+}
+.input_review {
+  width: 300px;
+}
+.something {
+  padding: 10px;
+}
+.submitbtn {
+  padding: 10px 50px;
+  border-radius: 40px;
+  background: #3d3d3d;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.submitbtn:hover {
+  background: #323232;
+}
+.login_input {
+  background-color: #d9d2d248;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 15px;
+  padding: 22px;
+  width: 300px;
+  height: 250px;
+  box-shadow:  9px 5px 20px rgba(0, 0, 0, 0.407);
+}
+.input_log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.more_feat {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 28px;
+}
+.sms_btn {
+  padding: 10px 50px;
+  border-radius: 40px;
+  background: #3d3d3d;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.cont_main {
+  display: flex;
+  align-items: center;
+}
